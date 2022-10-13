@@ -10,8 +10,8 @@ public class Homepage {
     }
 
     public static void acceptPrivacyConfirmation() {
-        Common.waitForElementWithVisibilityChange(Locators.Tv3.Home.formPrivacyConfirmation);
-        Common.clickElement(Locators.Tv3.Home.buttonConfirm);
+        Common.waitForElementWithVisibilityChange(Locators.Eneba.Home.formPrivacyConfirmation);
+        Common.clickElement(Locators.Eneba.Home.buttonConfirm);
     }
 
 }

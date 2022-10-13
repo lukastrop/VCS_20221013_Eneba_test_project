@@ -17,10 +17,6 @@ public class Common {
         Driver.setDriver();
     }
 
-    public static void setUpDriver() {
-        Driver.setDriver();
-    }
-
     public static void openUrl(String url) {
         Driver.getDriver().get(url);
     }
