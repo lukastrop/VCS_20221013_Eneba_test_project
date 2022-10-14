@@ -21,4 +21,29 @@ public class MarketplacePage {
     public static String readFilterNotifictionSecondFilter() {
         return Common.getElementText(Locators.Eneba.MarketplacePage.SelectedFilter2);
     }
+    public  static void clickFirstItemFromProductList(){
+        Common.clickElement(Locators.Eneba.MarketplacePage.FirstItemFromProductList);
+    }
+    public  static void clickSecondItemFromProductList() {
+        Common.clickElement(Locators.Eneba.MarketplacePage.SecondItemFromProductList);
+    }
+    public  static void clickShoppingCartButton(){
+        Common.clickElement(Locators.Eneba.MarketplacePage.ShoppingCartButton);
+    }
+    public  static void clickViewCartButton(){
+        Common.clickElement(Locators.Eneba.MarketplacePage.ViewCartButton);
+    }
+    public static String readProductCountInCart() {
+        return Common.getElementText(Locators.Eneba.MarketplacePage.ProductCountInCart);
+    }
+    public  static void clickAddToCartButton(){
+        Common.clickElement(Locators.Eneba.MarketplacePage.AddToCartButton);
+    }
+    public  static void clickContinueShoppingButton(){
+        Common.clickElement(Locators.Eneba.MarketplacePage.ContinueShoppingButtonInPopUp);
+    }
+    public  static void clickViewCartButtonInPopUp(){
+        Common.clickElement(Locators.Eneba.MarketplacePage.ViewCartButtonInPopUp);
+    }
 }
+

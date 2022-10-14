@@ -26,7 +26,27 @@ public class Locators {
             public static By CheckboxProductGenreFilterStrategy = By.xpath("//*[@id='app']/main/div/div[1]/aside/form/ul[4]/li[5]/label/span[1]");
             public static By SelectedFilter1 = By.xpath("//*[@id='app']/main/div/div[1]/section/div[1]/ul/li[2]/span/strong");
             public static By SelectedFilter2 = By.xpath("//*[@id='app']/main/div/div[1]/section/div[1]/ul/li[3]/span/strong");
+
+            public static By FirstItemFromProductList = By.xpath("//*[@id='app']/main/div/div[1]/section/div[2]/div[2]/div[1]/div");
+
+            public static By SecondItemFromProductList = By.xpath("//*[@id='app']/main/div/div[1]/section/div[2]/div[2]/div[2]/div");
+
+            public static By ShoppingCartButton = By.xpath("//*[@id='app']/header/div[1]/span[3]/div/button");
+
+            public static By ViewCartButton = By.xpath("//*[@id='app']/header/div[1]/span[3]/div/div/div[2]/div/a");
+
+            public static By ProductCountInCart = By.xpath("//*[@id='app']/main/div[2]/div[2]/ul/li");
+
+            public static By AddToCartButton = By.xpath("//*[@id='app']/main/div/div/div/div/div[4]/div/div/div/div/div[3]/div[2]/button");
+
+            public static By ViewCartButtonInPopUp = By.xpath("/html/body/div[5]/div/div/a");
+
+            public static By ContinueShoppingButtonInPopUp = By.xpath("/html/body/div[5]/div/div/a");
+
+
         }
+
+
     }
 
 }
