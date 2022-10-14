@@ -38,6 +38,16 @@
             <artifactId>selenium-webdriver</artifactId>
             <version>4.1.2</version>
         </dependency>
+        <dependency>
+            <groupId>org.scalatestplus</groupId>
+            <artifactId>testng-7-5_2.13</artifactId>
+            <version>3.2.14.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-chrome-driver</artifactId>
+            <version>4.5.0</version>
+        </dependency>
 
     </dependencies>
 

@@ -8,9 +8,12 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import pom.utils.Driver;
+
 import java.time.Duration;
 import java.util.ArrayList;
 import java.util.List;
+
+import static pom.pages.Locators.Eneba.Home.formPrivacyConfirmation;
 
 public class Common {
     public static void setUpDriver() {
@@ -98,9 +101,13 @@ public class Common {
         action.click();
         action.perform();
     }
-    public static void waitForElementWithVisibilityChange(By locator) {
+
+    public static String waitForElementWithVisibilityChange(By locator) {
         WebDriverWait wait = new WebDriverWait(Driver.getDriver(), Duration.ofSeconds(8));
         wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
+        return null;
     }
+
+
 
 }
