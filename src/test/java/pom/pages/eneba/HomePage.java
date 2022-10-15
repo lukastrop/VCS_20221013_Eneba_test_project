@@ -2,7 +2,6 @@ package pom.pages.eneba;
 
 import pom.pages.Common;
 import pom.pages.Locators;
-
 import static pom.pages.Locators.Eneba.Home;
 
 
@@ -30,8 +29,9 @@ public class HomePage {
 
     public static boolean arePopupsDisplayed() {
         try {
-            Common.waitForElementWithVisibilityChange(Locators.Eneba.Home.formPrivacyConfirmation);
             Common.getElement(Locators.Eneba.Home.formPrivacyConfirmation).isDisplayed();
+            Common.getElement(Home.NewsletterPopup).isDisplayed();
+            Common.getElement(Home.DiscountTimerPopup).isDisplayed();
             return true;
         } catch (org.openqa.selenium.NoSuchElementException e) {
             System.out.println("Element not found");
