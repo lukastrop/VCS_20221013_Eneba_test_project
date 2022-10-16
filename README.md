@@ -60,7 +60,7 @@
    - Click Remove Top Item From Cart Button;
    - Click Remove Top Item From Cart Button;
 
-   Expected result: The shopping cart notification should contain that we have "2 products" added.
+   Expected result: The shopping cart pop up notification should contain  "Your cart is empty" message.
 
 8. Add items to wishlist: `Marketplace page`
     - Click on first item "Add to wishlist button";
