@@ -21,12 +21,12 @@ public class WishlistPage {
 
     public static void ClickAddThirdProductToWishlistButton() {
         Common.moveToElementAndClick(Locators.Eneba.WishlistPage.AddThirdProductToWishlistButton);
-        Common.sleep(1000);
+        Common.sleep(4000);
     }
 
     public static void ClickWishlistButton() {
         Common.clickElement(Locators.Eneba.WishlistPage.WishlistButton);
-        Common.sleep(4000);
+        Common.sleep(6000);
     }
 
     public static String readFirstProductName() {
@@ -49,11 +49,11 @@ public class WishlistPage {
     }
 
     public static String readSecondWishlistItemName() {
-        return Common.getElementText(Locators.Eneba.WishlistPage.SecondtWishlistItemName);
+        return Common.getElementText(Locators.Eneba.WishlistPage.SecondWishlistItemName);
     }
 
     public static String readThirdWishlistItemName() {
         return Common.getElementText(Locators.Eneba.WishlistPage.ThirdWishlistItemName);
     }
-
 }
+

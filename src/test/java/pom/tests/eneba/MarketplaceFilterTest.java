@@ -24,7 +24,6 @@ public class MarketplaceFilterTest extends TestBase {
 
         String expectedText = "DLC";
         MarketplacePage.clickFilterCheckboxTypeDlc();
-        Common.sleep(2000);
         String actualText = MarketplacePage.readFilterNotifictionFirstFilter();
         Assert.assertEquals(actualText, expectedText);
 

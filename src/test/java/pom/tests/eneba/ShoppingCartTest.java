@@ -23,11 +23,8 @@ public class ShoppingCartTest extends TestBase {
     private void testSingleItemInShoppingCart() {
 
         MarketplacePage.clickFirstItemFromProductList();
-        Common.sleep(5000);
         MarketplacePage.clickAddToCartButton();
-        Common.sleep(5000);
         MarketplacePage.clickViewCartButtonInPopUp();
-        Common.sleep(5000);
         String expectedText = "1 product";
         String actualText = MarketplacePage.readProductCountInCart();
         Assert.assertTrue(actualText.contains(expectedText));

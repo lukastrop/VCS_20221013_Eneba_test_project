@@ -37,7 +37,6 @@ public class HomePage {
         } catch (org.openqa.selenium.NoSuchElementException e) {
             System.out.println("Element not found");
         }
-
         return false;
     }
 

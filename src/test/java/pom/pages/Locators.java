@@ -1,6 +1,7 @@
 package pom.pages;
 
 import org.openqa.selenium.By;
+import scala.util.control.Exception;
 
 public class Locators {
 
@@ -49,7 +50,7 @@ public class Locators {
             public static By AddThirdProductToWishlistButton = By.xpath("//*[@id='app']/main/div/div[1]/section/div[2]/div[2]/div[3]/span/button");
             public static By WishlistButton = By.xpath("//*[@id='app']/header/div[1]/span[2]");
             public static By FirstWishlistItemName = By.xpath("//*[@id='app']/main/div/div/div[3]/section/div[2]/div[2]/div[1]/div/div[2]/div/div[1]");
-            public static By SecondtWishlistItemName = By.xpath("//*[@id='app']/main/div/div/div[3]/section/div[2]/div[2]/div[2]/div/div[2]/div/div[1]");
+            public static By SecondWishlistItemName = By.xpath("//*[@id='app']/main/div/div/div[3]/section/div[2]/div[2]/div[2]/div/div[2]/div/div[1]");
             public static By ThirdWishlistItemName = By.xpath("//*[@id='app']/main/div/div/div[3]/section/div[2]/div[2]/div[3]/div/div[2]/div/div[1]");
             public static By FirstProductName = By.xpath("//*[@id='app']/main/div/div[1]/section/div[2]/div[2]/div[1]/div/div[2]/div/div[1]/span");
             public static By SecondProductName = By.xpath("//*[@id='app']/main/div/div[1]/section/div[2]/div[2]/div[2]/div/div[2]/div/div[1]/span");
