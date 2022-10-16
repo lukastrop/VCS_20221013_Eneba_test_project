@@ -10,7 +10,7 @@ import pom.utils.TestListener;
 
 @Listeners(TestListener.class)
 public class HomePagePopupTest extends TestBase {
-
+    
     @BeforeMethod
     @Override
     public void setUp() {
@@ -18,13 +18,11 @@ public class HomePagePopupTest extends TestBase {
         HomePage.open("https://www.eneba.com/lt/");
     }
 
-
     @Test
     private void PopupCloseTest() {
         HomePage.acceptPrivacyConfirmation();
         HomePage.closeDiscountTimerPopup();
         HomePage.closeNewsletterPopup();
         Assert.assertFalse(HomePage.arePopupsDisplayed());
-
     }
 }
