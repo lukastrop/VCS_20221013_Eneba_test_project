@@ -7,6 +7,7 @@
             <class name="pom.tests.eneba.LoginTest"/>
             <class name="pom.tests.eneba.MarketplaceFilterTest"/>
             <class name="pom.tests.eneba.ShoppingCartTest"/>
+            <class name="pom.tests.eneba.WishlistTest"/>
         </classes>
     </test>
 </suite>
