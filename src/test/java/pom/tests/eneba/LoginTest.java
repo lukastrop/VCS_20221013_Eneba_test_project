@@ -10,7 +10,6 @@ import pom.tests.TestBase;
 import pom.utils.TestListener;
 
 
-
 @Listeners(TestListener.class)
 public class LoginTest extends TestBase {
 

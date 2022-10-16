@@ -39,16 +39,6 @@ public class MarketplacePage {
         Common.clickElement(Locators.Eneba.MarketplacePage.SecondItemFromProductList);
     }
 
-    public static void clickShoppingCartButton() {
-        Common.waitForElementWithVisibilityChange(Locators.Eneba.MarketplacePage.ShoppingCartButton);
-        Common.clickElement(Locators.Eneba.MarketplacePage.ShoppingCartButton);
-    }
-
-    public static void clickViewCartButton() {
-        Common.waitForElementWithVisibilityChange(Locators.Eneba.MarketplacePage.ViewCartButton);
-        Common.clickElement(Locators.Eneba.MarketplacePage.ViewCartButton);
-    }
-
     public static String readProductCountInCart() {
         Common.waitForElementWithVisibilityChange(Locators.Eneba.MarketplacePage.ProductCountInCart);
         return Common.getElementText(Locators.Eneba.MarketplacePage.ProductCountInCart);
@@ -83,5 +73,6 @@ public class MarketplacePage {
         Common.waitForElementWithVisibilityChange(Locators.Eneba.MarketplacePage.YourCartIsEmptyMessage);
         return Common.getElementText(Locators.Eneba.MarketplacePage.YourCartIsEmptyMessage);
     }
+
 }
 

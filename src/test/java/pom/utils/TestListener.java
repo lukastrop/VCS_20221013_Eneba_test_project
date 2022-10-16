@@ -11,12 +11,14 @@ import java.io.IOException;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.UUID;
-public class TestListener implements ITestListener  {
+
+public class TestListener implements ITestListener {
 
     @Override
     public void onTestFailure(ITestResult result) {
         takeScreenshot();
     }
+
     private void takeScreenshot() {
 
         TakesScreenshot takesScreenshot = (TakesScreenshot) Driver.getDriver();

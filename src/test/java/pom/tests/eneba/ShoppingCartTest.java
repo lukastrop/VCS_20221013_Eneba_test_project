@@ -40,7 +40,7 @@ public class ShoppingCartTest extends TestBase {
         MarketplacePage.clickFirstItemFromProductList();
         MarketplacePage.clickAddToCartButton();
         MarketplacePage.clickContinueShoppingButton();
-        MarketplacePage.open("https://www.eneba.com/store/games");
+        MarketplacePage.BackToMainMarketplacePage();
         MarketplacePage.clickSecondItemFromProductList();
         MarketplacePage.clickAddToCartButton();
         MarketplacePage.clickViewCartButtonInPopUp();

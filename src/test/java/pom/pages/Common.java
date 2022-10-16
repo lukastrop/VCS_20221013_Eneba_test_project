@@ -2,12 +2,12 @@ package pom.pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import pom.utils.Driver;
 
 import java.time.Duration;
-import java.util.List;
 
 public class Common {
     public static void setUpDriver() {
@@ -53,5 +53,13 @@ public class Common {
         return null;
     }
 
-
+    public static void moveToElementAndClick(By locator) {
+        WebElement element = getElement(locator);
+        Actions action = new Actions(Driver.getDriver());
+        action.moveToElement(element);
+        action.click();
+        action.perform();
+    }
 }
+
+
