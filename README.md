@@ -62,7 +62,7 @@
 
    Expected result: The shopping cart pop up notification should contain  "Your cart is empty" message.
 
-8. Add items to wishlist: `Marketplace page`
+8. Add items to wishlist: `Wishlist page`
     - Click on first item "Add to wishlist button";
     - Click on second item "Add to wishlist button";
     - Click on third item "Add to wishlist button";
