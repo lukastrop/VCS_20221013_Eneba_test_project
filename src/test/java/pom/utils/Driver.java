@@ -13,8 +13,6 @@ public class Driver {
         WebDriverManager.chromedriver().setup();
         driver.set(new ChromeDriver(setUpOptions()));
         driver.get().manage().deleteAllCookies();
-
-
     }
 
     public static WebDriver getDriver() {
