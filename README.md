@@ -38,7 +38,7 @@
 
    Expected result: The notification filter type and genre should contain the names of selected checkboxes.
 
-6. Shopping cart single item test: `Marketplace page`
+6. Shopping cart multiple item test: `Marketplace page`
     - Click on first item from product list;
     - Click "Add to cart" button;
     - Click "Continue shopping" button in popup window;
