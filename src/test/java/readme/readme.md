@@ -39,6 +39,13 @@
    Expected result: The notification filter type and genre should contain the names of selected checkboxes.
 
 6. Shopping cart single item test: `Marketplace page`
+   - Click on first item from product list;
+   - Click "Add to cart" button;
+   - Click "View cart" button in popup window;
+
+Expected result: The shopping cart notification should contain that we have "1 product" added.
+
+7. Shopping cart single item test: `Marketplace page`
     - Click on first item from product list;
     - Click "Add to cart" button;
     - Click "Continue shopping" button in popup window;
@@ -49,7 +56,7 @@
 
    Expected result: The shopping cart notification should contain that we have "2 products" added.
 
-7. Shopping cart remove all items test: `Marketplace page`
+8. Shopping cart remove items test: `Marketplace page`
    - Click on first item from product list;
    - Click "Add to cart" button;
    - Click "Continue shopping" button in popup window;
@@ -62,7 +69,7 @@
 
    Expected result: The shopping cart popup notification should contain "Your cart is empty" message.
 
-8. Add items to wishlist: `Marketplace page`
+9. Add items to wishlist: `Wishlist page`
     - Click on first item "Add to wishlist button";
     - Click on second item "Add to wishlist button";
     - Click on third item "Add to wishlist button";
