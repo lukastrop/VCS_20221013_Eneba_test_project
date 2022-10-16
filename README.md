@@ -18,7 +18,7 @@
 
    Expected result: The logged in username should be the same as input email.
 
-   <sub> *The website enables captcha security after multiple login attempts. For automated tests to succeed a cooldown period is required or manual captcha input< /sub>
+   <sub> *The website enables captcha security after multiple login attempts. For automated tests to succeed a cooldown period is required or manual captcha input</sub>
 
 3. Login negative test: `Login Page`
     - Enter non-existing email to "email" input;
@@ -49,7 +49,20 @@
 
    Expected result: The shopping cart notification should contain that we have "2 products" added.
 
-7. Add items to wishlist: `Marketplace page`
+7. Shopping cart single item test: `Marketplace page`
+   - Click on first item from product list;
+   - Click "Add to cart" button;
+   - Click "Continue shopping" button in popup window;
+   - Navigate browser back to marketplace page;
+   - Click on second item from product list;
+   - Click "Add to cart" button;
+   - Click "View cart" button in popup window;
+   - Click Remove Top Item From Cart Button;
+   - Click Remove Top Item From Cart Button;
+
+   Expected result: The shopping cart notification should contain that we have "2 products" added.
+
+8. Add items to wishlist: `Marketplace page`
     - Click on first item "Add to wishlist button";
     - Click on second item "Add to wishlist button";
     - Click on third item "Add to wishlist button";

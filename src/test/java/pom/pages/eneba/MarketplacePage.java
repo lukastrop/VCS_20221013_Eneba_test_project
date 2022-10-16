@@ -61,7 +61,7 @@ public class MarketplacePage {
 
     public static void clickRemoveTopItemFromCartButton() {
         Common.waitForElementWithVisibilityChange(Locators.Eneba.MarketplacePage.RemoveTopItemFromCartButton);
-        Common.sleep(1000);
+        Common.sleep(2500);
         Common.clickElement(Locators.Eneba.MarketplacePage.RemoveTopItemFromCartButton);
     }
 

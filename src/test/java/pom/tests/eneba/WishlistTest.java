@@ -5,7 +5,6 @@ import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
-import pom.pages.Common;
 import pom.pages.eneba.WishlistPage;
 import pom.tests.TestBase;
 import pom.utils.TestListener;
