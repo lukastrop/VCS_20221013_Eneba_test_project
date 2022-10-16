@@ -23,8 +23,6 @@ public class TestListener implements ITestListener {
 
         TakesScreenshot takesScreenshot = (TakesScreenshot) Driver.getDriver();
         File screenshotRaw = takesScreenshot.getScreenshotAs(OutputType.FILE);
-
-//        String directory = "C:\\1_Lectures\\VCS\\01_Classwork\\test";
         String directory = "./screenshots";
 
         LocalDateTime localDateTime = LocalDateTime.now();
@@ -34,7 +32,7 @@ public class TestListener implements ITestListener {
         File screenshotFile = new File(
                 directory + "/screenshot_" + dateTime + "_" + UUID.randomUUID() + ".png"
         );
-
+        
         try {
             FileUtils.copyFile(screenshotRaw, screenshotFile);
         } catch (IOException e) {
