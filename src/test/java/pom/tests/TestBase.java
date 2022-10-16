@@ -19,10 +19,4 @@ public class TestBase {
     public void tearDown() {
         Common.closeDriver();
     }
-
-    @Test
-    private void test1() {
-
-    }
 }
-
