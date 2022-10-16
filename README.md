@@ -49,7 +49,7 @@
 
    Expected result: The shopping cart notification should contain that we have "2 products" added.
 
-7. Shopping cart single item test: `Marketplace page`
+7. Shopping cart remove items test: `Marketplace page`
    - Click on first item from product list;
    - Click "Add to cart" button;
    - Click "Continue shopping" button in popup window;
