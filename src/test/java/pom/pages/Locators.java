@@ -8,7 +8,6 @@ public class Locators {
 
     public static class Eneba {
 
-
         public static class Home {
             public static By formPrivacyConfirmation = By.xpath("//*[@id='app']/div/div[1]/div");
             public static By buttonConfirm = By.xpath("//*[@id='app']/div/div[1]/div/div/button[1]");
@@ -16,8 +15,6 @@ public class Locators {
             public static By DiscountTimerPopupCloseButton = By.xpath("//*[@id='app']/div/div[2]/button");
             public static By NewsletterPopup = By.xpath("//*[@id='app']/div[1]/dialog");
             public static By NewsletterPopupCloseButton = By.xpath("//*[@id='app']/div[1]/dialog/button");
-
-
         }
 
         public static class LoginPage {
@@ -41,7 +38,6 @@ public class Locators {
             public static By ContinueShoppingButtonInPopUp = By.xpath("/html/body/div[5]/div/div/a");
             public static By RemoveTopItemFromCartButton = By.xpath("//*[@id='app']/main/div[2]/div[1]/div[1]/ul/li[1]/button");
             public static By YourCartIsEmptyMessage = By.xpath("//*[@id='app']/main/div[2]/h2");
-
         }
 
         public static class WishlistPage {
